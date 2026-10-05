@@ -4,19 +4,8 @@
 
 O Sistema de Reserva de Hotel tem como objetivo validar os dados de uma reserva e calcular o valor total da hospedagem de acordo com a quantidade de hóspedes, número de noites, tipo de quarto e aplicação de cupons promocionais.
 
-O sistema será desenvolvido em Python e terá como foco a implementação de regras de negócio determinísticas que possam ser verificadas por meio de testes unitários.
 
----
-
-## 2. Objetivo
-
-Implementar uma função capaz de validar uma reserva de hotel e calcular seu valor total, aplicando as regras de negócio definidas neste documento.
-
-O sistema deve rejeitar entradas inválidas por meio de exceções e retornar o valor calculado para reservas válidas.
-
----
-
-## 3. Dados de entrada
+## 2. Dados de entrada
 
 Uma reserva possui os seguintes campos:
 
@@ -28,7 +17,7 @@ Uma reserva possui os seguintes campos:
 
 ---
 
-## 4. Tipos de quarto
+## 3. Tipos de quarto
 
 O sistema disponibiliza três tipos de quarto:
 
@@ -40,7 +29,7 @@ O tipo de quarto informado deve corresponder a uma das opções disponíveis.
 
 ---
 
-# 5. Regras de negócio
+# 4. Regras de negócio
 
 ## RN01 — Quantidade mínima de adultos
 
@@ -128,7 +117,7 @@ Um cupom diferente de `HOTEL10` ou `HOTEL20` deve ser rejeitado.
 
 ---
 
-# 6. Validações e comportamento esperado
+# 5. Validações e comportamento esperado
 
 O sistema deve validar os dados antes de realizar o cálculo.
 
@@ -138,7 +127,7 @@ Quando todos os dados forem válidos, a função deve retornar o valor total da 
 
 ---
 
-# 7. Critérios de aceitação
+# 6. Critérios de aceitação
 
 Uma implementação será considerada correta quando:
 
@@ -161,7 +150,7 @@ Uma implementação será considerada correta quando:
 
 ---
 
-# 8. Estratégia de testes
+# 7. Estratégia de testes
 
 A implementação será acompanhada por uma suíte de testes unitários utilizando Pytest.
 
